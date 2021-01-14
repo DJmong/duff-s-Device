@@ -1,10 +1,12 @@
 # duff-s-Device
 ㅇ 더프의 장치 분석 내용
- 더프의 장치는 Loop문의 반복 횟수를 줄이는 loop Unrolling 방법 중 하나다.
+
+더프의 장치는 Loop문의 반복 횟수를 줄이는 loop Unrolling 방법 중 하나다.
 switch-case 문에서 break가 없으면 break가 나올 때 까지 코드가 실행되는 것을 활용한 코드이며 현재는 사용하지 않는 기법이다.
 
 ㅇ switch-case문 해석
- 더프의 장치 입력 값으로 count가 9가 들어간다고 가정하자.
+
+더프의 장치 입력 값으로 count가 9가 들어간다고 가정하자.
 이 때 반복 값과 case 시작 값은 다음과 같다.
 n = (9+7)/8 = 2
 case = 9%8 = 1
