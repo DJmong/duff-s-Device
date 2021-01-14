@@ -1,8 +1,9 @@
 # duff-s-Device
 ㅇ 더프의 장치 분석 내용
 
-더프의 장치는 Loop문의 반복 횟수를 줄이는 loop Unrolling 방법 중 하나다.
-switch-case 문에서 break가 없으면 break가 나올 때 까지 코드가 실행되는 것을 활용한 코드이며 현재는 사용하지 않는 기법이다.
+더프의 장치는 from 배열에서 to 배열로 복사를 진행하는 알고리즘을 소개하며
+switch-case 문을 통해 Loop문의 반복 횟수를 줄이는 loop Unrolling 방법을 사용한다.
+break가 없으면 break가 나올 때 까지 코드가 실행되는 것을 활용한 코드이며 현재는 사용하지 않는 기법이다.
 
 ㅇ switch-case문 해석
 
